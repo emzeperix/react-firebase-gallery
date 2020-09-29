@@ -24,7 +24,7 @@ const useStorage = (file) => {
         const createdAt = timestamp();
         collectionRef.add({
             url: url,
-            createdAt: timestamp,
+            createdAt: createdAt,
         })
         setUrl(url);
       }
